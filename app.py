@@ -97,6 +97,7 @@ with st.sidebar:
     st.write("Set these secrets in Streamlit Cloud or your hosting provider:")
     st.code("OPENAI_API_KEY\nBRIGHTDATA_API_KEY", language="text")
     st.caption("The app reads environment variables through python-dotenv and the hosting platform.")
+    st.markdown("[View the source on GitHub](https://github.com/irtizak/web-agent)")
 
 
 question = st.text_area(
