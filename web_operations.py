@@ -39,7 +39,7 @@ def serp_search(query, engine="google"):
     url = "https://api.brightdata.com/request"
 
     payload = {
-        "zone": "ai_agent2",
+        "zone": "ai_agent",
         "url": f"{base_url}?q={quote_plus(query)}&brd_json=1",
         "format": "raw"
     }
@@ -115,7 +115,7 @@ def reddit_post_retrieval(urls, days_back=10, load_all_replies=False, comment_li
     trigger_url = "https://api.brightdata.com/datasets/v3/trigger"
 
     params = {
-        "dataset_id": "gd_lvzdpsdlw09j6t702",
+        "dataset_id": "gd_lvz8ah06191smkebj4",
         "include_errors": "true"
     }
 
