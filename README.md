@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/irtizak/web-agent)
+
 ## Streamlit App
 
 Run the web UI locally with:
