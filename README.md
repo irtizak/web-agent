@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/irtizak/web-agent)
+
 # Multi-Source Research Agent
 
 A lightweight research assistant that queries multiple sources (Google, Bing, Reddit) in parallel, analyzes results with an LLM, and synthesizes a single, combined answer.
